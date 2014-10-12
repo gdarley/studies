@@ -2,56 +2,48 @@
 <html>
 	<head>
 		<title>Bootstrap 3</title>
-		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-		
-		<!-- Latest compiled and minified JavaScript -->
-		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<!-- Latest compiled and minified CSS -->
-			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-			<!-- Optional theme -->
-			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-			<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet" >
+		<link href="css/styles.css" rel="stylesheet" >
+		
+
+
 	</head>
 	<body>
-		
 		<div class="navbar navbar-inverse navbar-static-top">
 			<div class="container">
-				<a href="#" class="navbar-brand">
-					Tech Site
-				</a>
-				<button class="navbar-toogle" data-toogle="collapse" data-target=".navHeaderCollapse">
+				<a href="#" class="navbar-brand">Tech Site</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-
 				</button>
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#">Blog</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toogle" data-toogle="dropdown">Social Media</a>
-							<ul class="dropdpwn-menu">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+							<ul class="dropdown-menu">
 								<li><a href="#">Twitter</a></li>
 								<li><a href="#">Facebook</a></li>
 								<li><a href="#">Google+</a></li>
-
+								<li><a href="#">LinkedIn</a></li>
 							</ul>
+
+
 						</li>
-						
 						<li><a href="#">About</a></li>
 						<li><a href="#">Contact</a></li>
-
-
 					</ul>
-
 				</div>
-				
+
+
 			</div>
 		</div>
 
-
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/bootstrap.js"></script>
 		
 	</body>
 </html>	
